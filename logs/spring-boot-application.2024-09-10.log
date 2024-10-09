@@ -1,0 +1,1111 @@
+2024-09-10 07:40:01 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - Re-registering apps/ORDER-SERVICE
+2024-09-10 07:40:01 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 07:40:01 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 07:41:30 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:09:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:14:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:19:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:24:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:29:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:34:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:39:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:44:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:49:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:54:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 09:59:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:04:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:09:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:14:40 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:15:23 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
+2024-09-10 10:15:23 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725952523199, current=DOWN, previous=UP]
+2024-09-10 10:15:23 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 10:15:23 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 10:15:23 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 10:15:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-10 10:15:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-10 10:15:23 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-10 10:15:26 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-10 10:15:26 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - deregister  status: 200
+2024-09-10 10:15:26 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-09-10 10:15:34 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-10 10:15:34 [restartedMain] INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 17.0.11 with PID 36962 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
+2024-09-10 10:15:34 [restartedMain] INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-10 10:15:34 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-09-10 10:15:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-10 10:15:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-10 10:15:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10 10:15:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2024-09-10 10:15:35 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ace948f6-045d-342d-bee8-b7bfb0dd75f6
+2024-09-10 10:15:35 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-10 10:15:35 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-10 10:15:35 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-10 10:15:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
+2024-09-10 10:15:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
+2024-09-10 10:15:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-10 10:15:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-10 10:15:35 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring embedded WebApplicationContext
+2024-09-10 10:15:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 975 ms
+2024-09-10 10:15:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10 10:15:35 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-09-10 10:15:35 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-10 10:15:35 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10 10:15:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-10 10:15:35 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e4c1d71
+2024-09-10 10:15:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-10 10:15:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2024-09-10 10:15:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 10:15:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10 10:15:36 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-10 10:15:36 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-09-10 10:15:36 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-10 10:15:36 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-09-10 10:15:37 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-10 10:15:37 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-10 10:15:37 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1725952537016
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:38 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:39 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:39 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:40 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:40 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:41 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:42 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:44 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:45 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:46 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:47 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:48 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:50 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:51 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:52 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:53 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:53 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:54 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:54 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:55 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:55 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:56 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:57 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:57 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:59 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:59 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:15:59 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:15:59 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:01 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:01 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:02 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:02 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:03 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:03 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:04 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:04 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:05 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:05 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:06 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:06 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2024-09-10 10:16:07 [restartedMain] ERROR o.s.kafka.core.KafkaAdmin - Could not configure topics
+org.springframework.kafka.KafkaException: Timed out waiting to get existing topics
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:520)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:499)
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:392)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:986)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ecommerce.orderservice.OrderServiceApplication.main(OrderServiceApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180)
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:502)
+	... 20 common frames omitted
+2024-09-10 10:16:07 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:07 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:08 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:08 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:09 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:09 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:10 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:10 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:11 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:11 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:12 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:12 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:13 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:13 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:14 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:14 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:15 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-09-10 10:16:15 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.clients.admin.KafkaAdminClient - [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.clients.admin.KafkaAdminClient - [AdminClient clientId=adminclient-1] Timed out 2 remaining operation(s) during close.
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-10 10:16:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-10 10:16:17 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-09-10 10:16:17 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-09-10 10:16:17 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1725952577243 with initial instances count: 2
+2024-09-10 10:16:17 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
+2024-09-10 10:16:17 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725952577245, current=UP, previous=STARTING]
+2024-09-10 10:16:17 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 10:16:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
+2024-09-10 10:16:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path '/orders'
+2024-09-10 10:16:17 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
+2024-09-10 10:16:17 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 10:16:17 [restartedMain] INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 43.319 seconds (process running for 43.554)
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: PORU43123. The total amount is: 7502
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=14, userId=1, items=[], orderCode=PORU43123, status=PENDING, totalAmount=7502, createdAt=2024-09-10T10:19:13.580617308, updatedAt=2024-09-10T10:19:13.580632098, createdBy=null, updatedBy=null)
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-10 10:19:13 [http-nio-8182-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1725952753631
+2024-09-10 10:19:13 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-10 10:19:13 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 2000 with epoch 0
+2024-09-10 10:19:13 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:0,Offset:{},Timestamp:{}
+2024-09-10 10:19:59 [http-nio-8182-exec-3] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 10:19:59 [http-nio-8182-exec-3] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: PORU43123. The total amount is: 7502
+2024-09-10 10:19:59 [http-nio-8182-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+2024-09-10 10:19:59 [http-nio-8182-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Duplicate entry 'PORU43123' for key 'orders.UK_dhk2umg8ijjkg4njg6891trit'
+2024-09-10 10:19:59 [http-nio-8182-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/orders] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry 'PORU43123' for key 'orders.UK_dhk2umg8ijjkg4njg6891trit'] [insert into orders (created_at,created_by,order_code,status,total_amount,updated_at,updated_by,user_id) values (?,?,?,?,?,?,?,?)]; SQL [insert into orders (created_at,created_by,order_code,status,total_amount,updated_at,updated_by,user_id) values (?,?,?,?,?,?,?,?)]; constraint [orders.UK_dhk2umg8ijjkg4njg6891trit]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'PORU43123' for key 'orders.UK_dhk2umg8ijjkg4njg6891trit'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1098)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2858)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:388)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:302)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:221)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:135)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:758)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy149.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy4/jdk.proxy4.$Proxy149.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:619)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy155.save(Unknown Source)
+	at com.ecommerce.orderservice.service.OrderServiceImp.createOrder(OrderServiceImp.java:69)
+	at com.ecommerce.orderservice.controller.OrderController.createOrder(OrderController.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-09-10 10:21:15 [http-nio-8182-exec-5] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 10:21:15 [http-nio-8182-exec-5] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: EEBBIIDD. The total amount is: 40000
+2024-09-10 10:21:15 [http-nio-8182-exec-5] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=16, userId=1, items=[], orderCode=EEBBIIDD, status=PENDING, totalAmount=40000, createdAt=2024-09-10T10:21:15.400247520, updatedAt=2024-09-10T10:21:15.400250548, createdBy=null, updatedBy=null)
+2024-09-10 10:21:15 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:2,Offset:{},Timestamp:{}
+2024-09-10 10:21:17 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:24:25 [http-nio-8182-exec-8] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 10:24:25 [http-nio-8182-exec-8] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: HABENEYASU. The total amount is: 78452
+2024-09-10 10:24:25 [http-nio-8182-exec-8] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=17, userId=1, items=[], orderCode=HABENEYASU, status=PENDING, totalAmount=78452, createdAt=2024-09-10T10:24:25.141736837, updatedAt=2024-09-10T10:24:25.141742108, createdBy=null, updatedBy=null)
+2024-09-10 10:24:25 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:1,Offset:{},Timestamp:{}
+2024-09-10 10:26:17 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:28:25 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Node -1 disconnected.
+2024-09-10 10:31:17 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:36:17 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:41:17 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:46:17 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725954532978, current=DOWN, previous=UP]
+2024-09-10 10:48:52 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-10 10:48:52 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-10 10:48:52 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-10 10:48:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-10 10:48:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - deregister  status: 200
+2024-09-10 10:48:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-09-10 10:49:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-10 10:49:04 [restartedMain] INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 17.0.11 with PID 40231 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
+2024-09-10 10:49:04 [restartedMain] INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-10 10:49:04 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-09-10 10:49:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-10 10:49:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-10 10:49:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10 10:49:05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2024-09-10 10:49:05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ace948f6-045d-342d-bee8-b7bfb0dd75f6
+2024-09-10 10:49:05 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-10 10:49:05 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-10 10:49:05 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-10 10:49:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
+2024-09-10 10:49:05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
+2024-09-10 10:49:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-10 10:49:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-10 10:49:05 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring embedded WebApplicationContext
+2024-09-10 10:49:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 984 ms
+2024-09-10 10:49:06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10 10:49:06 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-09-10 10:49:06 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-10 10:49:06 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10 10:49:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-10 10:49:06 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@551e74f0
+2024-09-10 10:49:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-10 10:49:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2024-09-10 10:49:06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 10:49:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10 10:49:07 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-10 10:49:07 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-09-10 10:49:07 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-10 10:49:07 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-09-10 10:49:07 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-10 10:49:07 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-10 10:49:07 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1725954547686
+2024-09-10 10:49:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2024-09-10 10:49:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-10 10:49:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-10 10:49:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-10 10:49:07 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-09-10 10:49:07 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-09-10 10:49:07 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-09-10 10:49:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-09-10 10:49:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-09-10 10:49:08 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-10 10:49:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1725954548046 with initial instances count: 3
+2024-09-10 10:49:08 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
+2024-09-10 10:49:08 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725954548048, current=UP, previous=STARTING]
+2024-09-10 10:49:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 10:49:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
+2024-09-10 10:49:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path '/orders'
+2024-09-10 10:49:08 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
+2024-09-10 10:49:08 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 10:49:08 [restartedMain] INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.546 seconds (process running for 3.789)
+2024-09-10 10:49:34 [http-nio-8182-exec-2] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-10 10:49:34 [http-nio-8182-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-10 10:49:34 [http-nio-8182-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-10 10:54:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 10:59:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:04:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:09:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:14:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:19:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:24:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:29:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:34:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:39:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:44:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:49:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:54:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 11:59:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:04:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:09:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:14:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:19:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:24:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:29:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:34:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: MAI832AM. The total amount is: 53345
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=18, userId=1, items=[], orderCode=MAI832AM, status=PENDING, totalAmount=53345, createdAt=2024-09-10T12:36:36.456919892, updatedAt=2024-09-10T12:36:36.456940352, createdBy=null, updatedBy=null)
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-10 12:36:36 [http-nio-8182-exec-8] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1725960996509
+2024-09-10 12:36:36 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-10 12:36:36 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 2002 with epoch 0
+2024-09-10 12:36:36 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:0
+2024-09-10 12:39:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:39:26 [http-nio-8182-exec-3] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 12:39:26 [http-nio-8182-exec-3] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: 404040PPBBUU9713. The total amount is: 404040
+2024-09-10 12:39:26 [http-nio-8182-exec-3] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=19, userId=1, items=[], orderCode=404040PPBBUU9713, status=PENDING, totalAmount=404040, createdAt=2024-09-10T12:39:26.200521340, updatedAt=2024-09-10T12:39:26.200529581, createdBy=null, updatedBy=null)
+2024-09-10 12:39:26 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:0
+2024-09-10 12:44:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:45:36 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Node -1 disconnected.
+2024-09-10 12:49:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:54:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 12:59:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:04:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:09:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:14:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:19:07 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725963596055, current=DOWN, previous=UP]
+2024-09-10 13:19:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 13:19:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-10 13:19:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-10 13:19:59 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-10 13:19:59 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - deregister  status: 200
+2024-09-10 13:19:59 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-09-10 13:20:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-10 13:20:07 [restartedMain] INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 17.0.11 with PID 48021 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
+2024-09-10 13:20:07 [restartedMain] INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-10 13:20:07 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-09-10 13:20:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-10 13:20:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-10 13:20:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10 13:20:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2024-09-10 13:20:08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ace948f6-045d-342d-bee8-b7bfb0dd75f6
+2024-09-10 13:20:08 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-10 13:20:08 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-10 13:20:08 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-10 13:20:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
+2024-09-10 13:20:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
+2024-09-10 13:20:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-10 13:20:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-10 13:20:08 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring embedded WebApplicationContext
+2024-09-10 13:20:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 959 ms
+2024-09-10 13:20:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10 13:20:08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-09-10 13:20:08 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-10 13:20:08 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10 13:20:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-10 13:20:08 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@308f5685
+2024-09-10 13:20:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-10 13:20:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2024-09-10 13:20:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10 13:20:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-10 13:20:10 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-10 13:20:10 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-09-10 13:20:10 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-10 13:20:10 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-09-10 13:20:10 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-10 13:20:10 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-10 13:20:10 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1725963610280
+2024-09-10 13:20:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2024-09-10 13:20:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-10 13:20:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-10 13:20:10 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-10 13:20:10 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-09-10 13:20:10 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-09-10 13:20:10 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1725963610610 with initial instances count: 3
+2024-09-10 13:20:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
+2024-09-10 13:20:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1725963610612, current=UP, previous=STARTING]
+2024-09-10 13:20:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
+2024-09-10 13:20:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
+2024-09-10 13:20:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path '/orders'
+2024-09-10 13:20:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
+2024-09-10 13:20:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
+2024-09-10 13:20:10 [restartedMain] INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 3.517 seconds (process running for 3.747)
+2024-09-10 13:20:23 [http-nio-8182-exec-2] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-10 13:20:23 [http-nio-8182-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-10 13:20:23 [http-nio-8182-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-10 13:25:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:30:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:35:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: BBVVCCAASS. The total amount is: 808080
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=20, userId=1, items=[], orderCode=BBVVCCAASS, status=PENDING, totalAmount=808080, createdAt=2024-09-10T13:39:46.790471694, updatedAt=2024-09-10T13:39:46.790484483, createdBy=null, updatedBy=null)
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-10 13:39:46 [http-nio-8182-exec-5] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1725964786860
+2024-09-10 13:39:46 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-10 13:39:46 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 2003 with epoch 0
+2024-09-10 13:39:46 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:2
+2024-09-10 13:40:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:41:57 [http-nio-8182-exec-2] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 13:41:57 [http-nio-8182-exec-2] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: 94724. The total amount is: 707070
+2024-09-10 13:41:57 [http-nio-8182-exec-2] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=21, userId=1, items=[], orderCode=94724, status=PENDING, totalAmount=707070, createdAt=2024-09-10T13:41:57.721318820, updatedAt=2024-09-10T13:41:57.721327197, createdBy=null, updatedBy=null)
+2024-09-10 13:41:57 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:1
+2024-09-10 13:45:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:45:31 [http-nio-8182-exec-9] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 13:45:31 [http-nio-8182-exec-9] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: UUID989. The total amount is: 5000
+2024-09-10 13:45:31 [http-nio-8182-exec-9] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=22, userId=1, items=[], orderCode=UUID989, status=PENDING, totalAmount=5000, createdAt=2024-09-10T13:45:31.359910734, updatedAt=2024-09-10T13:45:31.359921024, createdBy=null, updatedBy=null)
+2024-09-10 13:45:31 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:0
+2024-09-10 13:47:32 [http-nio-8182-exec-6] INFO  c.e.o.controller.OrderController - Is user found:MonoFlatMap
+2024-09-10 13:47:32 [http-nio-8182-exec-6] INFO  c.e.o.controller.OrderController - Your order has been placed. The order code is: OOPPDDEE. The total amount is: 88888
+2024-09-10 13:47:32 [http-nio-8182-exec-6] INFO  c.e.o.controller.OrderController - Is user order created:Order(id=23, userId=1, items=[], orderCode=OOPPDDEE, status=PENDING, totalAmount=88888, createdAt=2024-09-10T13:47:32.360726402, updatedAt=2024-09-10T13:47:32.360736310, createdBy=null, updatedBy=null)
+2024-09-10 13:47:32 [kafka-producer-network-thread | producer-1] INFO  c.e.o.controller.OrderController - Received new meta data.
+Topic:order-topic,Partition:1
+2024-09-10 13:49:02 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Node -1 disconnected.
+2024-09-10 13:50:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 13:55:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:00:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:05:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:10:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:15:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:20:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:25:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:30:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:35:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:40:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:45:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:50:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 14:55:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:00:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:05:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:10:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:15:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:20:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:25:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:30:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:35:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-10 15:40:10 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

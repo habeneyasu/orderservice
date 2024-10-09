@@ -66,14 +66,4 @@ public class Order {
     @Column(name = "updated_by", nullable = true, updatable = false)
     private Long updatedBy;
 
-    @PrePersist
-    protected void onCreate() {
-        createdAt = LocalDateTime.now();
-        updatedAt = LocalDateTime.now();
-    }
-
-    @PreUpdate
-    protected void onUpdate() {
-        updatedAt = LocalDateTime.now();
-    }
 }

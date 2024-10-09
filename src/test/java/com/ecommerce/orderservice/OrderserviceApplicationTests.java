@@ -13,9 +13,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @ExtendWith(SpringExtension.class)
-@SpringBootTest(classes = OrderserviceApplication.class)
+@SpringBootTest(classes = OrderServiceApplication.class)
 @AutoConfigureMockMvc
-class OrderserviceApplicationTests {
+class OrderServiceApplicationTests {
 
 	@Autowired
 	private MockMvc mockMvc;

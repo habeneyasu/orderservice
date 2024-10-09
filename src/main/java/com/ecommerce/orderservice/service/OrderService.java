@@ -5,6 +5,7 @@ import com.ecommerce.orderservice.modeldto.OrderDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 
 public interface OrderService {
@@ -22,7 +23,7 @@ public interface OrderService {
     /**
      * Create order
      */
-    public Order createOrder(OrderDTO orderDTO);
+    public Order createOrder(OrderDTO orderDTO) throws ExecutionException, InterruptedException;
 
     /**
      * Update order
@@ -32,5 +33,13 @@ public interface OrderService {
     /**
      * Delete order
      */
-    public void deleteOrder(Long id);
+    public boolean deleteOrder(Long id);
+
+    /**
+     * Get order by order code
+     *
+     */
+    public Order getOrderByOrdercode(String orderCode);
+
+    public String generateTransactionKey();
 }

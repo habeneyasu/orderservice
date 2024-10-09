@@ -1,198 +1,562 @@
-2024-08-02 13:10:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-08-02 13:10:07 [restartedMain] INFO  c.e.o.OrderserviceApplication - Starting OrderserviceApplication using Java 17.0.11 with PID 1483289 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
-2024-08-02 13:10:07 [restartedMain] INFO  c.e.o.OrderserviceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-02 13:10:07 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
-2024-08-02 13:10:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-02 13:10:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-02 13:10:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-02 13:10:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
-2024-08-02 13:10:08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8bf8a8e1-7b46-3881-8628-0be9b5459d90
-2024-08-02 13:10:08 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-08-02 13:10:08 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-08-02 13:10:08 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-08-02 13:10:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
-2024-08-02 13:10:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
-2024-08-02 13:10:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-08-02 13:10:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-08-02 13:10:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-08-02 13:10:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 897 ms
-2024-08-02 13:10:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-02 13:10:08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
-2024-08-02 13:10:08 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-08-02 13:10:08 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-02 13:10:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-08-02 13:10:08 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48ce7a7a
-2024-08-02 13:10:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2024-08-02 13:10:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
-2024-08-02 13:10:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 13:10:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-02 13:10:09 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-08-02 13:10:09 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2024-08-02 13:10:10 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-02 13:10:10 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2024-08-02 13:10:10 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2024-08-02 13:10:10 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1722593410227 with initial instances count: 0
-2024-08-02 13:10:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
-2024-08-02 13:10:10 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1722593410229, current=UP, previous=STARTING]
-2024-08-02 13:10:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
-2024-08-02 13:10:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
-2024-08-02 13:10:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path ''
-2024-08-02 13:10:10 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
-2024-08-02 13:10:10 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
-2024-08-02 13:10:10 [restartedMain] INFO  c.e.o.OrderserviceApplication - Started OrderserviceApplication in 3.396 seconds (process running for 3.67)
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2024-08-02 13:10:40 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
-2024-08-02 13:12:53 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
-2024-08-02 13:12:53 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1722593573705, current=DOWN, previous=UP]
-2024-08-02 13:12:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
-2024-08-02 13:12:53 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
-2024-08-02 13:12:53 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 13:12:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2024-08-02 13:12:53 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2024-08-02 13:12:53 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2024-08-02 13:12:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
-2024-08-02 13:12:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - deregister  status: 200
-2024-08-02 13:12:56 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2024-08-02 13:13:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-08-02 13:13:04 [restartedMain] INFO  c.e.o.OrderserviceApplication - Starting OrderserviceApplication using Java 17.0.11 with PID 1483544 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
-2024-08-02 13:13:04 [restartedMain] INFO  c.e.o.OrderserviceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-02 13:13:04 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
-2024-08-02 13:13:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-08-02 13:13:04 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-08-02 13:13:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-02 13:13:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
-2024-08-02 13:13:04 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8bf8a8e1-7b46-3881-8628-0be9b5459d90
-2024-08-02 13:13:04 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-08-02 13:13:04 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-08-02 13:13:04 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-08-02 13:13:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
-2024-08-02 13:13:05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
-2024-08-02 13:13:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-08-02 13:13:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-08-02 13:13:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-08-02 13:13:05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 860 ms
-2024-08-02 13:13:05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-02 13:13:05 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
-2024-08-02 13:13:05 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-08-02 13:13:05 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-02 13:13:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-08-02 13:13:05 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fb69d10
-2024-08-02 13:13:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2024-08-02 13:13:05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
-2024-08-02 13:13:05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 13:13:06 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-02 13:13:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-08-02 13:13:06 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2024-08-02 13:13:06 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-02 13:13:06 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2024-08-02 13:13:06 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2024-08-02 13:13:06 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1722593586875 with initial instances count: 0
-2024-08-02 13:13:06 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
-2024-08-02 13:13:06 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1722593586877, current=UP, previous=STARTING]
-2024-08-02 13:13:06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
-2024-08-02 13:13:06 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
-2024-08-02 13:13:06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path ''
-2024-08-02 13:13:06 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
-2024-08-02 13:13:06 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
-2024-08-02 13:13:06 [restartedMain] INFO  c.e.o.OrderserviceApplication - Started OrderserviceApplication in 3.186 seconds (process running for 3.387)
-2024-08-02 13:13:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-08-02 13:13:32 [main] INFO  c.e.o.OrderserviceApplicationTests - Starting OrderserviceApplicationTests using Java 17.0.11 with PID 1483691 (started by kacha in /home/kacha/Project/e-commerce/orderservice )
-2024-08-02 13:13:32 [main] INFO  c.e.o.OrderserviceApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2024-08-02 13:13:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-02 13:13:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
-2024-08-02 13:13:33 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7ab49eba-52ae-345f-80e0-18edc611c509
-2024-08-02 13:13:33 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2024-08-02 13:13:33 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-08-02 13:13:33 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-2024-08-02 13:13:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-02 13:13:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
-2024-08-02 13:13:33 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2024-08-02 13:13:33 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-02 13:13:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-08-02 13:13:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23e86863
-2024-08-02 13:13:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2024-08-02 13:13:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
-2024-08-02 13:13:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 13:13:34 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-02 13:13:35 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2024-08-02 13:13:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2024-08-02 13:13:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
-2024-08-02 13:13:35 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2024-08-02 13:13:35 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-08-02 13:13:35 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2024-08-02 13:13:35 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2024-08-02 13:13:35 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1722593615587 with initial instances count: 1
-2024-08-02 13:13:35 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
-2024-08-02 13:13:35 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1722593615589, current=UP, previous=STARTING]
-2024-08-02 13:13:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
-2024-08-02 13:13:35 [main] INFO  c.e.o.OrderserviceApplicationTests - Started OrderserviceApplicationTests in 3.181 seconds (process running for 3.675)
-2024-08-02 13:13:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
-2024-08-02 13:13:35 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
-2024-08-02 13:13:35 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1722593615760, current=DOWN, previous=UP]
-2024-08-02 13:13:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
-2024-08-02 13:13:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
-2024-08-02 13:13:35 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 13:13:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2024-08-02 13:13:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2024-08-02 13:13:35 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2024-08-02 13:13:36 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
-2024-08-02 13:13:38 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
-2024-08-02 13:13:38 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - deregister  status: 200
-2024-08-02 13:13:38 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2024-08-02 13:13:55 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
-2024-08-02 13:13:55 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1722593635093, current=DOWN, previous=UP]
-2024-08-02 13:13:55 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182: registering service...
-2024-08-02 13:13:55 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - registration status: 204
-2024-08-02 13:13:55 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 13:13:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2024-08-02 13:13:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2024-08-02 13:13:55 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2024-08-02 13:13:58 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
-2024-08-02 13:13:58 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/HP:ORDER-SERVICE:8182 - deregister  status: 200
-2024-08-02 13:13:58 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-10-09 10:30:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-09 10:30:51 [restartedMain] INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 17.0.11 with PID 322407 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
+2024-10-09 10:30:51 [restartedMain] INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ecommerce.orderservice.repository.ItemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ecommerce.orderservice.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-09 10:30:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-10-09 10:30:52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=90d9e355-0a2b-3c8b-be36-d9a9d3f78f80
+2024-10-09 10:30:52 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-10-09 10:30:52 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-10-09 10:30:52 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-10-09 10:30:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
+2024-10-09 10:30:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
+2024-10-09 10:30:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-09 10:30:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-09 10:30:52 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring embedded WebApplicationContext
+2024-10-09 10:30:52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1589 ms
+2024-10-09 10:30:52 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09 10:30:52 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-10-09 10:30:52 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-09 10:30:53 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-09 10:30:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-09 10:30:53 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@354911c4
+2024-10-09 10:30:53 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-09 10:30:53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2024-10-09 10:30:53 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09 10:30:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09 10:30:54 [restartedMain] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-09 10:30:54 [restartedMain] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Skipped types: []
+2024-10-09 10:30:54 [restartedMain] INFO  o.s.b.a.g.s.GraphQlWebMvcAutoConfiguration - GraphQL endpoint HTTP POST /graphql
+2024-10-09 10:30:55 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-09 10:30:55 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-10-09 10:30:55 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-10-09 10:30:55 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-09 10:30:55 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-10-09 10:30:55 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-10-09 10:30:55 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-10-09 10:30:55 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1728459055525
+2024-10-09 10:30:55 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:55 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:55 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:55 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:55 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:55 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:56 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:56 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:57 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:57 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:58 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:58 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:30:59 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:30:59 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:00 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:00 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:01 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:01 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:02 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:02 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:03 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:03 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:04 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:04 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:05 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:05 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:06 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:06 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:07 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:07 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:09 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:09 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:10 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:10 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:11 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:11 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:12 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:12 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:12 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:12 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:13 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:13 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:15 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:15 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:15 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:15 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:17 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:17 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:18 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:18 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:19 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:19 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:20 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:20 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:21 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:21 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:24 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:24 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:25 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:25 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:25 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2024-10-09 10:31:25 [restartedMain] ERROR o.s.kafka.core.KafkaAdmin - Could not configure topics
+org.springframework.kafka.KafkaException: Timed out waiting to get existing topics
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:520)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:499)
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:392)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:986)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ecommerce.orderservice.OrderServiceApplication.main(OrderServiceApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180)
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:502)
+	... 20 common frames omitted
+2024-10-09 10:31:26 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:26 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:27 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:27 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:28 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:28 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:29 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:29 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:30 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:30 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:31 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:32 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:33 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:34 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 10:31:34 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.clients.admin.KafkaAdminClient - [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.clients.admin.KafkaAdminClient - [AdminClient clientId=adminclient-1] Timed out 2 remaining operation(s) during close.
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-10-09 10:31:35 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-10-09 10:31:35 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-10-09 10:31:35 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-10-09 10:31:35 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1728459095713 with initial instances count: 0
+2024-10-09 10:31:35 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
+2024-10-09 10:31:35 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1728459095718, current=UP, previous=STARTING]
+2024-10-09 10:31:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:fb60212462a5b8658bac071462f41580: registering service...
+2024-10-09 10:31:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
+2024-10-09 10:31:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path '/orders'
+2024-10-09 10:31:35 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
+2024-10-09 10:31:35 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:fb60212462a5b8658bac071462f41580 - registration status: 204
+2024-10-09 10:31:35 [restartedMain] INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 45.093 seconds (process running for 45.381)
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-10-09 10:32:05 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-10-09 10:36:35 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 10:41:35 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 10:46:35 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 10:51:35 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 10:56:35 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 11:01:35 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 11:04:28 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
+2024-10-09 11:04:28 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1728461068696, current=DOWN, previous=UP]
+2024-10-09 11:04:28 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:fb60212462a5b8658bac071462f41580: registering service...
+2024-10-09 11:04:28 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:fb60212462a5b8658bac071462f41580 - registration status: 204
+2024-10-09 11:04:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09 11:04:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-09 11:04:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-09 11:04:28 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-10-09 11:04:31 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-10-09 11:04:31 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:fb60212462a5b8658bac071462f41580 - deregister  status: 200
+2024-10-09 11:04:31 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-10-09 11:04:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-09 11:04:44 [restartedMain] INFO  c.e.o.OrderServiceApplication - Starting OrderServiceApplication using Java 17.0.11 with PID 336469 (/home/kacha/Project/e-commerce/orderservice /target/classes started by kacha in /home/kacha/Project/e-commerce/orderservice )
+2024-10-09 11:04:44 [restartedMain] INFO  c.e.o.OrderServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 11:04:44 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-10-09 11:04:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09 11:04:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ecommerce.orderservice.repository.ItemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ecommerce.orderservice.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2024-10-09 11:04:45 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=90d9e355-0a2b-3c8b-be36-d9a9d3f78f80
+2024-10-09 11:04:45 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-10-09 11:04:45 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-10-09 11:04:45 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-10-09 11:04:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8182 (http)
+2024-10-09 11:04:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8182"]
+2024-10-09 11:04:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-09 11:04:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-09 11:04:46 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/orders] - Initializing Spring embedded WebApplicationContext
+2024-10-09 11:04:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1581 ms
+2024-10-09 11:04:46 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09 11:04:46 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-10-09 11:04:46 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-09 11:04:46 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-09 11:04:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-09 11:04:46 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1432fb98
+2024-10-09 11:04:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-09 11:04:47 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2024-10-09 11:04:47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09 11:04:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09 11:04:48 [restartedMain] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-09 11:04:48 [restartedMain] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {}
+	Unmapped registrations: {}
+	Skipped types: []
+2024-10-09 11:04:48 [restartedMain] INFO  o.s.b.a.g.s.GraphQlWebMvcAutoConfiguration - GraphQL endpoint HTTP POST /graphql
+2024-10-09 11:04:48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-09 11:04:48 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-10-09 11:04:48 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-10-09 11:04:49 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-09 11:04:49 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-10-09 11:04:49 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-10-09 11:04:49 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-10-09 11:04:49 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1728461089107
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:50 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:50 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:51 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:52 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:53 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:53 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:54 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:54 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:55 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:55 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:56 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:57 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:57 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:58 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:58 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:04:59 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:04:59 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:00 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:00 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:01 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:01 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:02 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:02 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:03 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:03 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:05 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:05 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:06 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:06 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:06 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:06 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:07 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:07 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:09 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:09 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:10 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:10 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:11 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:11 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:12 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:12 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:13 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:13 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:14 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:14 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:15 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:15 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:16 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:16 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:17 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:17 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:18 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:18 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:18 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:18 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:19 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2024-10-09 11:05:19 [restartedMain] ERROR o.s.kafka.core.KafkaAdmin - Could not configure topics
+org.springframework.kafka.KafkaException: Timed out waiting to get existing topics
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:520)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:499)
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:392)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:986)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.ecommerce.orderservice.OrderServiceApplication.main(OrderServiceApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180)
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:502)
+	... 20 common frames omitted
+2024-10-09 11:05:20 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:20 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:21 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:21 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:21 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:21 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:22 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:25 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:25 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:26 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:26 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:27 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:27 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:28 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-10-09 11:05:28 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.clients.admin.KafkaAdminClient - [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.clients.admin.KafkaAdminClient - [AdminClient clientId=adminclient-1] Timed out 2 remaining operation(s) during close.
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-10-09 11:05:29 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-10-09 11:05:29 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-10-09 11:05:29 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-10-09 11:05:29 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1728461129402 with initial instances count: 0
+2024-10-09 11:05:29 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application ORDER-SERVICE with eureka with status UP
+2024-10-09 11:05:29 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1728461129408, current=UP, previous=STARTING]
+2024-10-09 11:05:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:b2ce066dd3d15d1d383f9ed94ad3011f: registering service...
+2024-10-09 11:05:29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8182"]
+2024-10-09 11:05:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8182 (http) with context path '/orders'
+2024-10-09 11:05:29 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
+2024-10-09 11:05:29 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:b2ce066dd3d15d1d383f9ed94ad3011f - registration status: 204
+2024-10-09 11:05:29 [restartedMain] INFO  c.e.o.OrderServiceApplication - Started OrderServiceApplication in 45.249 seconds (process running for 45.48)
+2024-10-09 11:05:49 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application ORDER-SERVICE with eureka with status DOWN
+2024-10-09 11:05:49 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1728461149676, current=DOWN, previous=UP]
+2024-10-09 11:05:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:b2ce066dd3d15d1d383f9ed94ad3011f: registering service...
+2024-10-09 11:05:49 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:b2ce066dd3d15d1d383f9ed94ad3011f - registration status: 204
+2024-10-09 11:05:49 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09 11:05:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-09 11:05:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-09 11:05:49 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-10-09 11:05:52 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-10-09 11:05:52 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_ORDER-SERVICE/ORDER-SERVICE:b2ce066dd3d15d1d383f9ed94ad3011f - deregister  status: 200
+2024-10-09 11:05:52 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

@@ -10,4 +10,6 @@ import java.util.Optional;
 public interface OrderRepository extends JpaRepository<Order,Long> {
 
     Optional<Order> findTopByOrderByOrderCodeDesc();
+
+    Order findByOrderCode(String orderCode);
 }

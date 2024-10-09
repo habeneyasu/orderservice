@@ -1,3 +1,49 @@
 type Query {
-    helloWorld: String
+    getMessage: String
+    getAllOrders: [Order]
+    getOrderById(id: ID!): Order
+    getUser(id: ID!): Boolean
+    findOrderByCode(orderCode: String!): Order
+}
+
+type Mutation {
+    createOrder(orderDTO: OrderDTOInput!): String
+}
+
+type Order {
+    id: ID!
+    userId: ID
+    items: [Item]
+    orderCode: String
+    status: OrderStatus
+    totalAmount: Float
+    createdAt: String
+    updatedAt: String
+    createdBy: ID
+    updatedBy: ID
+}
+
+type Item {
+    id: ID!
+    name: String!
+    quantity: Int!
+    unitPrice: Float!
+    totalPrice: Float!
+    description: String
+}
+
+input OrderDTOInput {  # Defines the input for creating an order
+    userId: ID!
+    itemId: [ID!]!
+    orderCode: String!
+    status: OrderStatus!
+    totalAmount: Float!
+}
+
+enum OrderStatus {
+    PENDING
+    SHIPPED
+    DELIVERED
+    CANCELLED
+    RETURNED
 }
